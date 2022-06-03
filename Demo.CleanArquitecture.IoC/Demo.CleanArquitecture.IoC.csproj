@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.CleanArquitecture.Presenters\Demo.CleanArquitecture.Presenters.csproj" />
+    <ProjectReference Include="..\Demo.CleanArquitecture.RepositoryEFCore\Demo.CleanArquitecture.RepositoryEFCore.csproj" />
+    <ProjectReference Include="..\Demo.CleanArquitecture.UseCases\Demo.CleanArquitecture.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>
